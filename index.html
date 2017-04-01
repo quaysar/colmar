@@ -2,90 +2,199 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Colmar Academy</title>
+    <meta name=viewport content="width=device-width, initial-scale=1" charset="utf-8">
     <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <title>Colmar Academy</title>
 </head>
 
 <body>
-    <!-- Header -->
+
+  <!-- Header -->
+
     <header>
-        <div class="content">
-            <div id="desktopLogo">
-                <img src="resources/images/ic-logo.svg">
-                <span>Colmar Academy</span>
-            </div>
-            <nav class="desktop">
-                <ul>
-                    <li><a href="#">On Campus</a></li>
-                    <li><a href="#">Online</a></li>
-                    <li><a href="#">For Companies</a></li>
-                    <li><a href="#">Sign in</a></li>
-                </ul>
-            </nav>
-            <nav class="mobile">
-                <ul>
-                    <li>
-                        <a href="#"><img src="resources/images/ic-logo.svg"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="resources/images/ic-on-campus.svg"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="resources/images/ic-online.svg"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="resources/images/ic-login.svg"></a>
-                    </li>
-                </ul>
-            </nav>
+        <div class="logo desktop">
+            <img src="resources/images/ic-logo.svg">
+            <span class="colmar">Colmar</span>
+            <span class="academy">Academy</span>
+        </div>
+        <div class="nav-links desktop">
+            <ul>
+                <li>
+                    <a href="#">Campus</a>
+                </li>
+                <li>
+                    <a href="#">Online</a>
+                </li>
+                <li>
+                    <a href="#">For Companies</a>
+                </li>
+                <li>
+                    <a href="#">Sign In</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Mobile Header -->
+
+        <div class="mobile">
+            <img src="resources/images/ic-logo.svg">
+            <img src="resources/images/ic-on-campus.svg">
+            <img src="resources/images/ic-online.svg">
+            <img src="resources/images/ic-login.svg">
         </div>
     </header>
 
-    <!-- Main Content -->
-    <div class="main-content">
+    <!-- Banner -->
 
-        <!-- Hero Banner -->
-        <div id="mainBanner">
-            <div class="imageContainer">
-                <div class="heroImage">
-                    <img src="resources/images/banner.jpg">
+    <div class="banner">
+        <img src="resources/images/banner.jpg">
+        <div class="info">
+            <h1>Learn something new everyday</h1>
+            <p>Lorem impsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" class="btn">Start Here</a>
+        </div>
+    </div>
+
+    <!-- Information section -->
+
+    <div class="information">
+        <div class="left desktop">
+            <img src="resources/images/information-main.jpg">
+            <h2>It doesn't hurt to keep practicing</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <span class="img-footer">Emmanuel, Sr. Strategist at hiring.com</span>
+        </div>
+        <div class="right">
+            <div class="box">
+                <img src="resources/images/information-orientation.jpg" class="information-orientation">
+                <div class="copy">
+                    <h3>Orientation date</h3>
+                    <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+                    <a href="#">Read more</a>
                 </div>
             </div>
-            <div class="textContainer">
-                <div id="bannerText">
-                    <h2>Learn something new everyday</h2>
-                    <h4>Education is awesome—you know it's true.</h4>
+            <div class="box">
+                <img src="resources/images/information-campus.jpg" class="information-campus">
+                <div class="copy">
+                    <h3>Our campus</h3>
+                    <p>Find which campus is close by you</p>
+                    <a href="#">Read more</a>
                 </div>
-                <div id="bannerButton">Start here</div>
+            </div>
+            <div class="box">
+                <img src="resources/images/information-guest-lecture.jpg" class="information-guest-lecture">
+                <div class="copy">
+                    <h3>Our guest lecture</h3>
+                    <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                    <a href="#">Read more</a>
+                </div>
             </div>
         </div>
+    </div>
 
-        <!-- Info section -->
-        <div class="infoSection">
-            <div class="imageContainer">
-                <div class="heroImage">
-                    <img src="resources/images/information-main.jpg">
+    <!-- Learning section -->
+
+    <div class="learning">
+        <h2>
+          Start Learning
+        </h2>
+        <div class="row">
+            <div class="learn-item">
+                <img src="resources/images/course-software.jpg" class="desktop">
+                <div class="info">
+                    <h3>Software Engineering</h3>
+                    <h4 class="desktop">Courses</h4>
+                    <p class="desktop">Web Development, Mobile development, iOT, APIs</p>
                 </div>
             </div>
-            <div class="textContainer">
-                <div id="infoText">
-                    <h2>It doesn't hurt to keep practicing</h2>
-                    <h4>"Single-origin coffee pitchfork wolf, street art brunch ugh bitters shoreditch migas shabby chic mumblecore blog tbh. Before they sold out kale chips DIY vegan."</h4>
+            <div class="learn-item">
+                <img src="resources/images/course-computer-art.jpg" class="desktop">
+                <div class="info">
+                    <h3>Computer Art</h3>
+                    <h4 class="desktop">Courses</h4>
+                    <p class="desktop">Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
                 </div>
-                <div id="attribution">Emanuel, Sr. Strategist at Hiring.com</div>
             </div>
-            <div id="infoFeature">
-                <div class="feature">
-                    <div class="imageContainer">
-                        <img src="resources/images/information-orientation.jpg">
-                    </div class="content">
-                    <h2>Orientation date</h2>
-                    <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <div class="learn-item">
+                <img src="resources/images/course-design.jpg" class="desktop">
+                <div class="info">
+                    <h3>Design</h3>
+                    <h4 class="desktop">Courses</h4>
+                    <p class="desktop">User Experience Design, User Research, Visual Design</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="learn-item">
+                <img src="resources/images/course-data.jpg" class="desktop">
+                <div class="info">
+                    <h3>Data</h3>
+                    <h4 class="desktop">Courses</h4>
+                    <p class="desktop">Data Science, Big Data, SQL, Data Visualization</p>
+                </div>
+            </div>
+            <div class="learn-item">
+                <img src="resources/images/course-business.jpg" class="desktop">
+                <div class="info">
+                    <h3>Business</h3>
+                    <h4 class="desktop">Courses</h4>
+                    <p class="desktop">Product Development, Business Development, Startup</p>
+                </div>
+            </div>
+            <div class="learn-item">
+                <img src="resources/images/course-marketing.jpg" class="desktop">
+                <div class="info">
+                    <h3>Marketing</h3>
+                    <h4 class="desktop">Courses</h4>
+                    <p class="desktop">Analytics, Content Marketing, Mobile Marketing</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Thesis section -->
 
+    <div class="thesis">
+        <div class="title">Thesis exhibit</div>
+        <div class="content">
+            <div class="left">
+                <video src="resources/videos/thesis.mp4" controls></video>
+                <h2 class="desktop">Reimagine urban</h2>
+                <p class="desktop">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="right desktop">
+                <div class="box">
+                    <img src="resources/images/thesis-fisma.jpg">
+                    <div class="copy">
+                        <h3>Fisma Design and </h3>
+                        <p>Designer showcase of few prototype products</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="resources/images/thesis-now-and-then.jpg">
+                    <div class="copy">
+                        <h3>Now and then</h3>
+                        <p>Research study about New York</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <!-- Footer -->
+
+    <footer>
+        <span>
+            © 2016 Colman Academy. All rights reserved.
+        </span>
+        <div class="links">
+            <ul class="desktop">
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
